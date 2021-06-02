@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+
+.title-txt {
+    font-family: 'Dynalight';
+}
+
+
+
+.add-data {
+    border: 1.5px solid #007BFF !important;
+    border-radius: 5px !important;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.container1 {
+    background-color: rgb(238, 183, 80);
+    align-items: center;
+    margin: auto;
+    border: 3px solid gray;
+    padding: 20px 40px 40px;
+    height: auto;
+    width: 80%;
+    display: flex;
+}
+
+.container__text1 {
+    display: inline-block;
+    width: 46%;
+    text-align: justify;
+}
+
+.jbtn {
+    background-image: url("/img/jb.jpg");
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sign Up Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="assets/animate.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #262324; margin-bottom: 50px;">
+
+    <div>
+        <center>
+            <div style="margin-top: 50px; display: flex; justify-content: center;">
+                <div><img src="img/logo2.svg" style="height: 100px;" alt="Logo brand"></div>
+                <div>
+                    <h2 class="title-txt" style="color: #ff847c; margin-top: 20px; font-size: 50px; margin-left: 10px;">
+                        HW Tickets</h2>
+                </div>
+            </div>
+        </center>
+
+        <div class="container col-9"
+            style="box-shadow:-4px -4px 23px 7px rgba(97,97,97,0.08); margin-top: 30px; border-radius: 10px; ">
+
+            <div class=" row" style="display: flex; justify-content: space-evenly;">
+                <div class="col-md-6" style="background-color: #262324; display: flex; justify-content: center; 
+               ">
+                    <img src=" img/ilus.svg" alt="" style="width: 450px;">
+                </div>
+                <div class="col-md-6" style="background-color: #262324;">
+                    <div class="row">
+                        <div class="col" style="justify-content: center; padding: 10px; ">
+                            <div class="card rounded-20" style="background-color: #262324; border: 0px;">
+                                <div class="card-header" style="display: flex; justify-content: center; ">
+                                    <h3 class="mb-0" style="color: white;">Sign Up</h3>
+                                </div>
+                                <div class="card-body">
+                                    <form class="form" role="form" autocomplete="off" method="POST"
+                                        action="validateSignup.php">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1" style="color: white;">Email address</label>
+                                            <input type="email" class="form-control form-control-md rounded-2"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                placeholder="Enter email" name='email'>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputUsername" style="color: white;">Username</label>
+                                            <input type="username" class="form-control form-control-md rounded-2"
+                                                id="exampleInputUsername" placeholder="Username" name="username">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" style="color: white;">Password</label>
+                                            <input type="password" class="form-control form-control-md rounded-2"
+                                                id="exampleInputPassword1" placeholder="Password" name="password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputUsername" style="color: white;">Telephone</label>
+                                            <input type="text" class="form-control form-control-md rounded-2"
+                                                id="exampleInputUsername" placeholder="Telephone" name="telephone">
+                                        </div>
+                                        <button type="submit" class="btn" style="background-color: #f38181; color: white;width:
+                                        100px;">Submit</button>
+                                    </form>
+                                    <center>
+                                        <p style="color: white; margin-top: 20px;">Already Have Account? <a
+                                                href="loginForm.php" style="color: #ff847c;">Login</a>
+                                        </p>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
